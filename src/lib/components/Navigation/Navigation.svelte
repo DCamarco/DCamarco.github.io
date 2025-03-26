@@ -13,7 +13,7 @@
 	classes="sticky top-0 z-50"
 >
 	<div class="flex items-center justify-center">
-		<Navigation.Tile href="#/"><h1>Dominic.</h1></Navigation.Tile>
+		<a href="/"><h1 class="font-serif text-2xl font-bold">Dominic.</h1></a>
 	</div>
 	<div class="flex items-center justify-evenly">
 		<Navigation.Tile href="#about">About</Navigation.Tile>
