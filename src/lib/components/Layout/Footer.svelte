@@ -23,14 +23,14 @@
 			</div>
 			<div class="footer-right flex items-center gap-4">
 				<a
-					href="mailto:your.email@example.com"
+					href="mailto:doccamarco@gmail.com"
 					class="text-surface-500 hover:text-primary-500"
 					aria-label="Email"
 				>
 					<IconMail size={20} />
 				</a>
 				<a
-					href="https://github.com/your-github"
+					href="https://github.com/DCamarco"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-surface-500 hover:text-primary-500"
@@ -39,7 +39,7 @@
 					<IconGithub size={20} />
 				</a>
 				<a
-					href="https://linkedin.com/in/your-linkedin"
+					href="https://linkedin.com/in/doccamarco"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="text-surface-500 hover:text-primary-500"

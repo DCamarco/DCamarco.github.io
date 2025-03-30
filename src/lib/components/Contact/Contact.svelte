@@ -5,7 +5,7 @@
 </script>
 
 <section id="contact" class="section db py-16 md:py-24">
-	<div class="container mx-auto px-4">
+	<div class=" mx-auto px-4">
 		<div class="section-title text-center">
 			<h2 class="h2 mb-4 font-bold text-white">Get In Touch</h2>
 			<p class="text-surface-300-700 mx-auto max-w-2xl">

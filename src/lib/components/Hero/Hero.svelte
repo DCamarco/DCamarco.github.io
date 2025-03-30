@@ -54,10 +54,7 @@
 	});
 </script>
 
-<section
-	id="home"
-	class="section flex h-[calc(100vh-64px)] items-center justify-center text-center"
->
+<section id="home" class="section flex items-center justify-center text-center">
 	<div
 		class="container mx-auto flex flex-col items-center justify-center gap-8 px-4 md:flex-row md:gap-12 md:text-left"
 	>

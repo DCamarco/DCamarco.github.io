@@ -9,9 +9,9 @@
 
 <!-- ToastProvider should wrap the main content -->
 <ToastProvider>
-	<div class="relative container flex min-h-screen flex-col">
+	<div class="relative container flex min-h-screen flex-col gap-20">
 		<Navigation />
-		<main class="flex-grow">
+		<main class="relative flex flex-grow flex-col gap-40">
 			{@render children()}
 		</main>
 		<Footer />

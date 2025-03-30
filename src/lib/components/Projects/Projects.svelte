@@ -31,14 +31,22 @@
 			description:
 				'Working as the primary frontend developer, this unique platform is designed to streamline the process of hiring content-creators in an e-commerce like scenario, by creating and managing digital content. Using React and Next.js, we built a responsive and user-friendly platform that allows users to easily create and manage their content. Primary features include using Stripe as the payment gateway, StreamChat as the chat platform, and StrapiCMS as the backend.',
 			imageUrl: 'Frameflow.png',
-			techStack: ['Python', 'Pandas', 'FastAPI'],
+			techStack: [
+				'Typescript',
+				'React',
+				'Next.js',
+				'TailwindCSS',
+				'StrapiCMS',
+				'Stripe',
+				'StreamChat'
+			],
 			liveUrl: 'https://frameflow.co'
 		}
 		// Add more projects here
 	]);
 </script>
 
-<section id="projects" class="section lb py-16 md:py-24">
+<section id="projects" class="section lb py-32 md:py-24">
 	<div class="container mx-auto px-4">
 		<div class="section-title text-center">
 			<h2 class="h2 mb-4 font-bold">Projects</h2>
