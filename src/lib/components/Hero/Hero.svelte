@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { onMount, onDestroy } from 'svelte'; // onMount/onDestroy is appropriate here
 	import DocImage from '$lib/assests/Doc_Image.jpeg'; // Assuming this path is correct
-	import IconGithub from '@lucide/svelte/icons/github';
-	import IconLinkedin from '@lucide/svelte/icons/linkedin';
+	import GitHubBtn from '../Buttons/GitHubBtn.svelte';
+	import LinkedInBtn from '../Buttons/LinkedInBtn.svelte';
 
 	let displayText = $state('');
 	const descriptions = [
@@ -78,26 +78,8 @@
 				new technologies and seeking challenging projects.
 			</p>
 			<div class="flex justify-center gap-4 md:justify-start">
-				<a
-					href="https://github.com/DCamarco"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="btn preset-filled"
-					aria-label="GitHub Profile"
-				>
-					<IconGithub size={20} />
-					<span>GitHub</span>
-				</a>
-				<a
-					href="https://www.linkedin.com/in/doccamarco"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="btn preset-outlined"
-					aria-label="LinkedIn Profile"
-				>
-					<IconLinkedin size={20} />
-					<span>LinkedIn</span>
-				</a>
+				<GitHubBtn />
+				<LinkedInBtn />
 			</div>
 		</div>
 	</div>

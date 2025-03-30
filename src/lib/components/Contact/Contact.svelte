@@ -1,7 +1,7 @@
 <script lang="ts">
 	import IconMail from '@lucide/svelte/icons/mail';
-	import IconGithub from '@lucide/svelte/icons/github';
-	import IconLinkedin from '@lucide/svelte/icons/linkedin';
+	import GitHubBtn from '../Buttons/GitHubBtn.svelte';
+	import LinkedInBtn from '../Buttons/LinkedInBtn.svelte';
 </script>
 
 <section id="contact" class="section db py-16 md:py-24">
@@ -14,30 +14,12 @@
 		</div>
 
 		<div class="mt-12 flex flex-col items-center justify-center gap-6 md:flex-row md:gap-10">
-			<a href="mailto:your.email@example.com" class="btn preset-filled-primary-500 btn-lg">
+			<a href="mailto:doccamarco@gmail.com" class="btn preset-filled-primary-500 btn-lg">
 				<IconMail size={20} />
-				<span>your.email@example.com</span>
-			</a>
-			<a
-				href="https://github.com/your-github"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="btn preset-outlined-surface btn-lg"
-				aria-label="GitHub Profile"
+				<span>doccamarco@gmail.com</span></a
 			>
-				<IconGithub size={20} />
-				<span>GitHub</span>
-			</a>
-			<a
-				href="https://linkedin.com/in/your-linkedin"
-				target="_blank"
-				rel="noopener noreferrer"
-				class="btn preset-outlined-surface btn-lg"
-				aria-label="LinkedIn Profile"
-			>
-				<IconLinkedin size={20} />
-				<span>LinkedIn</span>
-			</a>
+			<GitHubBtn />
+			<LinkedInBtn />
 		</div>
 
 		<!-- Optional: Add a simple contact form later if needed using SvelteKit actions and Skeleton form components -->
