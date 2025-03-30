@@ -1,6 +1,5 @@
 <script lang="ts">
 	import IconExternalLink from '@lucide/svelte/icons/external-link';
-	import IconGithub from '@lucide/svelte/icons/github';
 
 	const projects = $state([
 		{

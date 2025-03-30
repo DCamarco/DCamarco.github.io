@@ -45,13 +45,13 @@
 					trends. Collaboration and clear communication are key aspects of my work ethic. Let's
 					build something amazing together!
 				</p>
-				<a
-					href="/path/to/cv.pdf"
+				<!-- <a
+					href=""
 					download="DominicCamarco_CV.pdf"
 					class="btn preset-outlined hover:preset-filled mt-4"
 				>
 					<span>Download CV</span>
-				</a>
+				</a> -->
 			</div>
 
 			<div class="skills-section">
