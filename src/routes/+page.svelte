@@ -1,23 +1,21 @@
-<script>
+<script lang="ts">
 	import Hero from '$lib/components/Hero/Hero.svelte';
-	let theme = $state('light');
-	function toggleTheme() {
-		let outerHTML = document.getElementsByTagName('html')[0];
-		if (theme === 'light') {
-			theme = 'dark';
-			outerHTML.className = 'dark';
-		} else {
-			theme = 'light';
-			outerHTML.className = 'light';
-		}
-	}
+	import About from '$lib/components/About/About.svelte';
+	import Projects from '$lib/components/Projects/Projects.svelte';
+	import Contact from '$lib/components/Contact/Contact.svelte';
 </script>
 
-<Hero />
+<svelte:head>
+	<title>Dominic Camarco - Software Engineer</title>
+	<meta
+		name="description"
+		content="Personal portfolio website for Dominic Camarco, showcasing projects and skills in software development."
+	/>
+	<meta property="og:title" content="Dominic Camarco - Software Engineer" />
+	<meta property="og:description" content="Portfolio showcasing projects and skills." />
+</svelte:head>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
-<a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a>
-<button onclick={() => toggleTheme()} class="btn preset-filled-primary-500">
-	Dark/Light Mode
-</button>
+<Hero />
+<About />
+<Projects />
+<Contact />
