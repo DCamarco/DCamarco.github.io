@@ -4,7 +4,7 @@
 	import LinkedInBtn from '../Buttons/LinkedInBtn.svelte';
 </script>
 
-<section id="contact" class="section db py-16 md:py-24">
+<section id="contact" class="section db">
 	<div class=" mx-auto px-4">
 		<div class="section-title text-center">
 			<h2 class="h2 mb-4 font-bold text-white">Get In Touch</h2>

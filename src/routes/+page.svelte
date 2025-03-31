@@ -16,6 +16,20 @@
 </svelte:head>
 
 <Hero />
+<hr class="page-break" />
 <About />
+<hr class="page-break" />
 <Projects />
+<hr class="page-break" />
 <Contact />
+<hr class="page-break" />
+
+<style>
+	.page-break {
+		display: block;
+		page-break-after: always;
+		height: 1px;
+		width: 100%;
+		background: var(--color-primary-50-950);
+	}
+</style>

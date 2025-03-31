@@ -22,7 +22,7 @@
 	]);
 </script>
 
-<section id="about" class="section py-16 md:py-24">
+<section id="about" class="section">
 	<div class="container mx-auto px-4">
 		<div class="section-title text-center">
 			<h2 class="h2 mb-4 font-bold">About Me</h2>

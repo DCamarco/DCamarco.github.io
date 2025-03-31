@@ -46,7 +46,7 @@
 	]);
 </script>
 
-<section id="projects" class="section lb py-32 md:py-24">
+<section id="projects" class="section lb">
 	<div class="container mx-auto px-4">
 		<div class="section-title text-center">
 			<h2 class="h2 mb-4 font-bold">Projects</h2>
